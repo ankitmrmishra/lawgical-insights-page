@@ -25,14 +25,14 @@ export default function Home() {
       <motion.div
        initial={{opacity:0 }} 
     animate={{opacity:1 }} 
-    transition={{duration:0.5}}
+    transition={{duration:0.5 , delay:0.5}}
       className="remaning-portion-1 social-media-banner hidden xl:inline-flex w-32 h-full fixed left-0 bottom-0">
         <SocialMedia/>
       </motion.div>
       <motion.div
        initial={{y:98, opacity:0}}
         animate={{y:0, opacity:1}}
-        transition={{duration:0.3 , delay:0.3}}
+        transition={{duration:0.8 , delay:0.3}}
       className="w-full h-[88vh] xl:flex items-center gap-20 justify-between">
         <Introduction/>
      
@@ -41,7 +41,7 @@ export default function Home() {
       <motion.div
        initial={{y:98, opacity:0}}
         animate={{y:0, opacity:1}}
-        transition={{duration:0.1 , delay:0.5}}
+        transition={{duration:0.3 , delay:0.6}}
       className="remaning-portion-3 email-sections hidden xl:inline-flex w-32 h-full fixed right-0 bottom-0">
 <Email/>
       </motion.div>

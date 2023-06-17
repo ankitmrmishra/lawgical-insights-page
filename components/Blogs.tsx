@@ -1,10 +1,25 @@
 import React from 'react'
 import BlogCard from '@/components/items/blogCard'
-
+import {motion } from 'framer-motion'
 
 const Blogs = () => {
   return (
-    <div className='lg:grid grid-cols-3 gap-5 flex flex-col justify-center align-middle ml-7 lg:ml-0'>
+    <div className='flex align-middle flex-col justify-center  items-center'>
+       <motion.h1
+      variants={
+        {
+            hidden:{opacity:0, y:80},
+            visible:{opacity:1, y:0},
+        
+        }
+      }
+      initial="hidden"
+      whileInView="visible"
+      transition={{duration:0.7 , delay:0.25}}
+      className="text-4xl lg:text-8xl text-White font-bold font-titleFont items-center">Blogs</motion.h1>
+  
+    <div className='lg:grid grid-cols-3 gap-5 flex flex-col justify-center align-middle items-center p-7  lg:ml-0'>
+      
        <BlogCard coverPhoto='https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80' title='What is constitution' content='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam nulla dolore, quaerat illo sed exercitationem ipsam autem obcaecati atque architecto fugiat quas voluptatem quo sequi commodi harum necessitatibus tempora quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, maiores? Porro, beatae deleniti. Aliquam sequi animi eveniet, mollitia aperiam tenetur ipsa quas deleniti laborum suscipit dolores saepe autem vel voluptate?' author='MANDVI TRIPATHI' date='11/06/2023' />
        <BlogCard coverPhoto='https://images.unsplash.com/photo-1589391886645-d51941baf7fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80' title='What is constitution' content='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam nulla dolore, quaerat illo sed exercitationem ipsam autem obcaecati atque architecto fugiat quas voluptatem quo sequi commodi harum necessitatibus tempora quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, maiores? Porro, beatae deleniti. Aliquam sequi animi eveniet, mollitia aperiam tenetur ipsa quas deleniti laborum suscipit dolores saepe autem vel voluptate?' author='MANDVI TRIPATHI' date='11/06/2023' />
        <BlogCard coverPhoto='https://images.unsplash.com/photo-1505664194779-8beaceb93744?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80' title='What is constitution' content='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam nulla dolore, quaerat illo sed exercitationem ipsam autem obcaecati atque architecto fugiat quas voluptatem quo sequi commodi harum necessitatibus tempora quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, maiores? Porro, beatae deleniti. Aliquam sequi animi eveniet, mollitia aperiam tenetur ipsa quas deleniti laborum suscipit dolores saepe autem vel voluptate?' author='MANDVI TRIPATHI' date='11/06/2023' />
@@ -17,6 +32,7 @@ const Blogs = () => {
        <BlogCard coverPhoto='https://images.unsplash.com/photo-1677227695433-3213a1b1204e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80' title='What is constitution' content='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam nulla dolore, quaerat illo sed exercitationem ipsam autem obcaecati atque architecto fugiat quas voluptatem quo sequi commodi harum necessitatibus tempora quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, maiores? Porro, beatae deleniti. Aliquam sequi animi eveniet, mollitia aperiam tenetur ipsa quas deleniti laborum suscipit dolores saepe autem vel voluptate?' author='MANDVI TRIPATHI' date='11/06/2023' />
     
     </div>
+      </div>
   )
 }
 

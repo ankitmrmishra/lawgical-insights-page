@@ -10,7 +10,7 @@ const navbar = () => {
     <motion.div 
     initial={{opacity:0}} 
     animate={{opacity:1}} 
-    transition={{duration:0.5}}>
+    transition={{duration:0.1}}>
 <Image src={logo} alt="logo" className='w-60' />
     </motion.div>
     <div className='hidden mdl:inline-flex items-center gap-7'>
@@ -19,35 +19,35 @@ const navbar = () => {
         <motion.li
         initial={{y:-10, opacity:0}}
         animate={{y:0, opacity:1}}
-        transition={{duration:0.1 , delay:0.1}}
+        transition={{duration:0.1 , delay:0.2}}
         >Home</motion.li>
     </Link>
      <Link href="#home" className='flex items-center gap-1 font-medium text-textDark hover:text-Green cursor-pointer duration-300 nav-link'>
          <motion.li
         initial={{y:-10, opacity:0}}
         animate={{y:0, opacity:1}}
-        transition={{duration:0.1 , delay:0.2}}
+        transition={{duration:0.1 , delay:0.3}}
         >Blogs</motion.li>
     </Link>
      <Link href="#home" className='flex items-center gap-1 font-medium text-textDark hover:text-Green cursor-pointer duration-300 nav-link'>
          <motion.li
         initial={{y:-10, opacity:0}}
         animate={{y:0, opacity:1}}
-        transition={{duration:0.1 , delay:0.3}}
+        transition={{duration:0.1 , delay:0.4}}
         >Latest in Law</motion.li>
     </Link>
      <Link href="#about" className='flex items-center gap-1 font-medium text-textDark hover:text-Green cursor-pointer duration-300 nav-link'>
          <motion.li
         initial={{y:-10, opacity:0}}
         animate={{y:0, opacity:1}}
-        transition={{duration:0.1 , delay:0.4}}
+        transition={{duration:0.1 , delay:0.5}}
         >About</motion.li>
     </Link>
      <Link href="#home" className='flex items-center gap-1 font-medium text-textDark hover:text-Green cursor-pointer duration-300 nav-link'>
          <motion.li
         initial={{y:-10, opacity:0}}
         animate={{y:0, opacity:1}}
-        transition={{duration:0.1 , delay:0.5}}
+        transition={{duration:0.1 , delay:0.6}}
         >Contact</motion.li>
     </Link>
     
