@@ -1,7 +1,7 @@
 import React from 'react';
 import photoShoot from "../public/assets/Images/photoShoot.jpg"
 import Image from 'next/image';
-import {BsFillSignpostFill} from 'react-icons/all'
+import {BsFillSignpostFill} from 'react-icons/bs'
 import {  useEffect , useRef } from 'react';
 import { useInView , motion, useAnimation } from 'framer-motion';
 
