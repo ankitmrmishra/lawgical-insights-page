@@ -2,7 +2,7 @@
 
 import { Url } from 'next/dist/shared/lib/router/router';
 import Image from 'next/image'
-import {BsFillSignpostFill} from 'react-icons/all'
+import {BsFillSignpostFill} from 'react-icons/bs'
 import {  useEffect , useRef } from 'react';
 import { useInView , motion, useAnimation } from 'framer-motion';
 const BlogCard = ({coverPhoto , title , content ,author , date}:{coverPhoto:string,title:string,content:string,author:string,date:string}) => {
