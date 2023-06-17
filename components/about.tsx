@@ -25,7 +25,7 @@ const About = () => {
 
   return (
     <section  ref={ref} 
-     id="about" className='lg:max-w-contentContainer flex flex-col align-middle justify-center mx-auto lg:py-10 mdl:py-24  gap-5 lgl:gap-8 mdl:px-10 xl:px-4 sm:p-8 sm:mt-9'>
+     id="about" className='lg:max-w-contentContainer flex flex-col align-middle justify-center mx-auto lg:py-10 mdl:py-24  gap-5 lgl:gap-8 mdl:px-10 xl:px-4 p-8 mt-9'>
       <motion.h1
       variants={
         {
