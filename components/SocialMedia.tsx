@@ -1,5 +1,5 @@
 import React from 'react'
-import {SlSocialInstagram , SlSocialTwitter , SlSocialFacebook , } from 'react-icons/all'
+import {SlSocialInstagram , SlSocialTwitter , SlSocialFacebook , } from 'react-icons/sl'
 const SocialMedia = () => {
   return (
     <div className='w-full h-full flex flex-col align-middle justify-end  gap-4 items-center '>
