@@ -1,5 +1,5 @@
 import React from 'react';
-import photoShoot from "../public/assets/Images/photoShoot.jpg"
+
 import Image from 'next/image';
 import {BsFillSignpostFill} from 'react-icons/bs'
 import {  useEffect , useRef } from 'react';
@@ -24,8 +24,8 @@ const About = () => {
   const skills = ['Reading Books', 'Mandala Artist', 'Content Writer', 'Photography'];
 
   return (
-    <section  ref={ref} 
-     id="about" className='lg:max-w-contentContainer flex flex-col align-middle justify-center mx-auto lg:py-10 mdl:py-24  gap-5 lgl:gap-8 mdl:px-10 xl:px-4 p-8 mt-9'>
+    <section id="about"  ref={ref} 
+      className='lg:max-w-contentContainer flex flex-col align-middle justify-center mx-auto lg:py-10 mdl:py-24  gap-5 lgl:gap-8 mdl:px-10 xl:px-4 p-8 mt-9'>
       <motion.h1
       variants={
         {
@@ -138,8 +138,9 @@ const About = () => {
             <Image 
             
               className="  shadow-[5px_5px_0px_0px_rgba(100,255,218)] lg:h-full lg:w-[400px] filter mix-blend-normal contrast-100  hover:tranform hover:-translate-y-6 hover:duration-750 duration-700"
-              src={photoShoot}
-              
+              src="/"
+              width={0}
+              height={0}
            
               
               alt="Headshot"

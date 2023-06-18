@@ -1,10 +1,12 @@
 import React from 'react'
-import BlogCard from '@/components/items/blogCard'
+import BlogCard from '@/pages/items/blogCard'
 import {motion } from 'framer-motion'
 
 const Blogs = () => {
   return (
-    <div className='flex align-middle flex-col justify-center  items-center'>
+    <div
+    id='blogs'
+    className='flex align-middle flex-col justify-center  items-center'>
        <motion.h1
       variants={
         {

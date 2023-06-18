@@ -1,12 +1,12 @@
 "use client";
 import React from 'react';
 
-import Navbar from '@/components/navbar'
-import SocialMedia from '@/components/SocialMedia'
-import Email from '@/components/email'
-import Introduction from '@/components/introduction'
-import Blogs from '@/components/Blogs';
-import About from '@/components/about';
+import Navbar from '@/pages/navbar'
+import SocialMedia from '@/pages/SocialMedia'
+import Email from '@/pages/email'
+import Introduction from '@/pages/introduction'
+import Blogs from '@/pages/Blogs';
+import About from '@/pages/about';
 import { GraphQLClient , gql } from 'graphql-request';
 import { motion } from 'framer-motion'
 
@@ -34,7 +34,7 @@ export default function Home() {
         animate={{y:0, opacity:1}}
         transition={{duration:0.8 , delay:0.3}}
       className="w-full h-[88vh] xl:flex items-center gap-20 justify-between">
-        <Introduction/>
+        <Introduction />
      
       </motion.div>
       
