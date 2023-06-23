@@ -8,32 +8,6 @@ const navbar = () => {
 
 
  
-  const refere = useRef<HTMLUListElement>(null);
-  const divRef = useRef<HTMLDivElement>(null);
-
-  const handleClick = () => {
-    const div = divRef.current;
-    if (div) {
-      div.classList.toggle('rotate');
-    }
-
-    const currentRef = refere.current;
-    if (currentRef) {
-      currentRef.classList.toggle('active');
-    }
-  };
-
-  const handleListItemClick = () => {
-    const div = divRef.current;
-    if (div) {
-      div.classList.toggle('rotate');
-    }
-
-    const currentRef = refere.current;
-    if (currentRef) {
-      currentRef.classList.remove('active');
-    }
-  };
 
 
   return (
@@ -50,36 +24,36 @@ const navbar = () => {
     </Link>
   
     <div className='top-3/4 mdl:inline-flex items-center gap-7'>
-<ul className='flex text-[13px] gap-7 mr-28' ref={refere}>
-    <Link  onClick={handleListItemClick} href={"/"} className='flex items-center gap-1 font-medium text-textDark hover:text-Green cursor-pointer duration-300 nav-link'>
+<ul className='flex text-[13px] gap-7 mr-28' >
+    <Link   href={"/"} className='flex items-center gap-1 font-medium text-textDark hover:text-Green cursor-pointer duration-300 nav-link'>
         <motion.li
         initial={{y:-10, opacity:0}}
         animate={{y:0, opacity:1}}
         transition={{duration:0.1 , delay:0.2}}
         >Home</motion.li>
     </Link>
-     <Link onClick={handleListItemClick} href={"/blogs"}  className='flex items-center gap-1 font-medium text-textDark hover:text-Green cursor-pointer duration-300 nav-link'>
+     <Link  href={"/blogs"}  className='flex items-center gap-1 font-medium text-textDark hover:text-Green cursor-pointer duration-300 nav-link'>
          <motion.li
         initial={{y:-10, opacity:0}}
         animate={{y:0, opacity:1}}
         transition={{duration:0.1 , delay:0.3}}
         >Blogs</motion.li>
     </Link>
-     <Link onClick={handleListItemClick} href="#home" className='flex items-center gap-1 font-medium text-textDark hover:text-Green cursor-pointer duration-300 nav-link'>
+     <Link  href="#home" className='flex items-center gap-1 font-medium text-textDark hover:text-Green cursor-pointer duration-300 nav-link'>
          <motion.li
         initial={{y:-10, opacity:0}}
         animate={{y:0, opacity:1}}
         transition={{duration:0.1 , delay:0.4}}
         >Latest in Law</motion.li>
     </Link>
-     <Link onClick={handleListItemClick} href="/about" className='flex items-center gap-1 font-medium text-textDark hover:text-Green cursor-pointer duration-300 nav-link'>
+     <Link  href="/about" className='flex items-center gap-1 font-medium text-textDark hover:text-Green cursor-pointer duration-300 nav-link'>
          <motion.li
         initial={{y:-10, opacity:0}}
         animate={{y:0, opacity:1}}
         transition={{duration:0.1 , delay:0.5}}
         >About</motion.li>
     </Link>
-     <Link onClick={handleListItemClick} href="#home" className='flex items-center gap-1 font-medium text-textDark hover:text-Green cursor-pointer duration-300 nav-link'>
+     <Link  href="#home" className='flex items-center gap-1 font-medium text-textDark hover:text-Green cursor-pointer duration-300 nav-link'>
          <motion.li
         initial={{y:-10, opacity:0}}
         animate={{y:0, opacity:1}}
@@ -90,7 +64,7 @@ const navbar = () => {
 </ul>
     </div>
     {/* Small screen icon here */}
-    <div ref={divRef} className="w-6 h-5 flex flex-col justify-between items-center mdl:hidden text-5xl text-Green cursor-pointer overflow-hidden group ">
+    <div  className="w-6 h-5 flex flex-col justify-between items-center mdl:hidden text-5xl text-Green cursor-pointer overflow-hidden group ">
         <span className='w-full h-[2px] inline-flex group-hover:translate-x-2 transition-all ease-in-out duration-300 text-black bg-Green'></span>
         <span className='w-full h-[2px] transform translate-x-2 inline-flex group-hover:-translate-x-1 transition-all ease-in-out duration-300 text-black bg-Green'></span>
         <span className='w-full h-[2px] inline-flex group-hover:translate-x-1 transition-all ease-in-out duration-300 text-black bg-Green'></span>
