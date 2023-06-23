@@ -2,6 +2,7 @@
 import React from 'react';
 
 import Navbar from '@/pages/navbar';
+import Contact from '@/app/contact/page'
 import SocialMedia from '@/pages/SocialMedia'
 import Email from '@/pages/email'
 import Introduction from './introduction/page';
@@ -51,6 +52,7 @@ export default function Home() {
         <Blogs/>
         
 <About/>
+<Contact/>
       </div>
     </main>
     )
