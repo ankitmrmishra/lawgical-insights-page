@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import {SlSocialInstagram , SlSocialTwitter , SlSocialFacebook , } from 'react-icons/sl'
 const SocialMedia = () => {

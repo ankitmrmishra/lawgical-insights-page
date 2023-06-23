@@ -1,3 +1,5 @@
+
+"use client"
 import React from 'react'
 import BlogCard from '@/pages/items/blogCard'
 import {motion } from 'framer-motion'

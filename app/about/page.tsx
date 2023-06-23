@@ -1,30 +1,20 @@
+"use client"
+
 import React from 'react';
 
 import Image from 'next/image';
 import {BsFillSignpostFill} from 'react-icons/bs'
-import {  useEffect , useRef } from 'react';
+
 import { useInView , motion, useAnimation } from 'framer-motion';
 
 const About = () => {
-    const ref = useRef(null);
-    const isInview = useInView(ref, {once:false})
-    const mainControls = useAnimation();
-    const slideControls = useAnimation();
-    
-    useEffect(() => {
-        if(isInview){
-            mainControls.start("visible")
-            slideControls.start("visible")
-            
-            
-        }
-    })
+   
   
 
   const skills = ['Reading Books', 'Mandala Artist', 'Content Writer', 'Photography'];
 
   return (
-    <section id="about"  ref={ref} 
+    <section id="about"   
       className='lg:max-w-contentContainer flex flex-col align-middle justify-center mx-auto lg:py-10 mdl:py-24  gap-5 lgl:gap-8 mdl:px-10 xl:px-4 p-8 mt-9'>
       <motion.h1
       variants={
@@ -52,7 +42,7 @@ const About = () => {
         }
       }
       initial="hidden"
-      animate={mainControls}
+       whileInView="visible"
       transition={{duration:0.7 , delay:0.45}}
             >
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius praesentium saepe, expedita perferendis necessitatibus quasi. Obcaecati magnam minus ea, dicta minima ab temporibus voluptas quo reiciendis at praesentium sint, consequuntur culpa harum? Inventore, voluptas dicta, magnam maiores labore, autem ipsam ipsum amet suscipit neque eaque ex quasi provident repudiandae veniam.
@@ -67,7 +57,7 @@ const About = () => {
         }
       }
       initial="hidden"
-      animate={mainControls}
+       whileInView="visible"
       transition={{duration:0.7 , delay:0.65}}
             >
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius praesentium saepe, expedita perferendis necessitatibus quasi. Obcaecati magnam minus ea, dim.
@@ -82,7 +72,7 @@ const About = () => {
         }
       }
       initial="hidden"
-      animate={mainControls}
+       whileInView="visible"
       transition={{duration:0.7 , delay:0.85}}
             >
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius praesentium saepe, expedita perferendis necessitatibus quasi. Obcaecati magnam minus ea, dicta minima a
@@ -96,7 +86,7 @@ const About = () => {
         }
       }
       initial="hidden"
-      animate={mainControls}
+       whileInView="visible"
       transition={{duration:0.7 , delay:0.95}}
             >
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius praesentium saepe, expedita perferendis necessitatibus quasi. Obcaecati magnam minus ea, dicta minima a
@@ -112,7 +102,7 @@ const About = () => {
         }
       }
       initial="hidden"
-      animate={mainControls}
+     
       transition={{duration:0.7 , delay:1}}
           
           className="skills-list grid grid-cols-2 gap-3 ">

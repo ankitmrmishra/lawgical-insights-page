@@ -1,5 +1,5 @@
-import React from 'react'
 
+"use client"
 const SocialMedia = () => {
   return (
     <div className='w-full h-full flex flex-col align-middle justify-end  gap-4 items-center '>

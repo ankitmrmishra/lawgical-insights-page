@@ -9,6 +9,17 @@
   --background-end-rgb: 255, 255, 255;
 
 }
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
 
 @media (prefers-color-scheme: dark) {
   :root {

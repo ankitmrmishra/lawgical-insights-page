@@ -1,12 +1,12 @@
 "use client";
 import React from 'react';
 
-import Navbar from '@/pages/navbar'
+import Navbar from '@/pages/navbar';
 import SocialMedia from '@/pages/SocialMedia'
 import Email from '@/pages/email'
-import Introduction from '@/pages/introduction'
-import Blogs from '@/pages/Blogs';
-import About from '@/pages/about';
+import Introduction from './introduction/page';
+import Blogs from '@/app/blogs/page';
+import About from './about/page';
 import { GraphQLClient , gql } from 'graphql-request';
 import { motion } from 'framer-motion'
 
@@ -19,8 +19,8 @@ export default function Home() {
 
   return (
     
-    <main className='w-full h-screen text-LightSlate bg-bodyColor overflow-x-hidden overflow-y-scroll'>
-      <Navbar/>
+    <main className='w-full fixed h-screen text-LightSlate bg-bodyColor overflow-x-hidden overflow-y-scroll   scrollbar-hide'>
+     
       <div className="w-full h-[88vh] xl:flex items-center gap-20 justify-between">
       <motion.div
        initial={{opacity:0 }} 
