@@ -30,7 +30,7 @@ const navbar = () => {
     </Link>
   
     <div className='fixed  bottom-0 z-[100] justify-center align-middle items-center bg-LightNavy lg:bg-transparent pt-4 pb-4 pl-[7rem]   lg:block lg:w-[auto] xl:block w-[100vw]  lg:justify-end lg:relative mdl:inline-flex  gap7'>
-<ul className='flex justify-center align-middle items-center text-[13px] gap-7 mr-28' >
+<ul className='flex justify-center text-White align-middle items-center text-[13px] gap-7 mr-28' >
     <Link   href={"/"} className='flex items-center gap-1 font-medium text-textDark hover:text-Green cursor-pointer duration-300 nav-link'>
         <motion.li
         initial={{y:-10, opacity:0}}
