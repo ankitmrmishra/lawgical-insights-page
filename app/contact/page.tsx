@@ -1,7 +1,7 @@
 "use client" ;
 import React from 'react'
 
-import {SlSocialInstagram , SlSocialTwitter , SlSocialFacebook , } from 'react-icons/sl'
+import {SlSocialInstagram , SlSocialTwitter , SlSocialFacebook  } from 'react-icons/sl'
 
 function page() {
 
@@ -13,7 +13,7 @@ function page() {
 
         <div className="text-White text-center  ">
             <h1 className="text-6xl font-bold">Let's Talk</h1>
-            <h1 className="">"Break the virtual ice - reach out and let's start a conversation."</h1>
+            <h1  >Break the virtual ice, reach out and lets start a conversation.</h1>
         </div>
 
 <div className="emailpart text-center rounded-s-md border-green-600 text-White ">
