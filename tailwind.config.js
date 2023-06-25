@@ -14,6 +14,9 @@ containers:"1140px"
     },
   
     extend: {
+      rotate: {
+        '135': '-135deg',
+      },
       screens:{
         xs:"320px",
          sm:"375px",
@@ -55,5 +58,6 @@ navbarShadow:" 0 10px 30px -10px rgba(2,12,27,0.7)  ",
   },
   plugins: [
      require('@tailwindcss/line-clamp'),
+       require('tailwindcss-3d')({ legacy: true }),
   ],
 }

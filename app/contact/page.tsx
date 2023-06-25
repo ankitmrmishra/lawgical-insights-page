@@ -9,14 +9,14 @@ function page() {
     
 
   return (
-    <div className=' flex flex-col align-middle justify-center  mdl:py-3  gap-5 lgl:gap-8 mdl:px-10 xl:px-4  h-[150vh] ' >
+    <div className='  max-w-contentContainer mx-auto py-16 mdl:py-24 flex flex-col gap-5 lgl:gap-8 mdl:px-10 xl:px-4 p-7 sm:mt-9 ' >
 
         <div className="text-White text-center  ">
-            <h1 className="text-6xl font-bold">Let's Talk</h1>
+            <span className="lg:text-6xl text-4xl w-8 font-bold">Get in touch</span>
             <h1  >Break the virtual ice, reach out and lets start a conversation.</h1>
         </div>
 
-<div className="emailpart text-center rounded-s-md border-green-600 text-White ">
+<div className="emailpart text-center rounded-s-md border-green-600 text-White mb-11     ">
    <a href="mailto:@lawgicalinsights@gmail.com" className=" border rounded-md border-green-600 pt-3 pb-3 pl-8 pr-8 text-lg  hover:text-Green">Mail</a>
 </div>
 <div className=" lg:hidden mt-16 flex align-middle justify-center gap-2 items-center">

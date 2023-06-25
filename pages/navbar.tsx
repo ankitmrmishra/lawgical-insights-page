@@ -50,7 +50,7 @@ const navbar = () => {
            <span className='lg:hidden text-lg' ><BsFillPencilFill/></span> 
             Blogs</motion.li>
     </Link>
-     <Link  href="#home" className='flex items-center gap-1 font-medium text-textDark hover:text-Green cursor-pointer duration-300 nav-link'>
+     <Link  href="/books" className='flex items-center gap-1 font-medium text-textDark hover:text-Green cursor-pointer duration-300 nav-link'>
          <motion.li
         initial={{y:-10, opacity:0}}
         animate={{y:0, opacity:1}}

@@ -8,6 +8,7 @@ import Email from '@/pages/email'
 import Introduction from './introduction/page';
 import Blogs from '@/app/blogs/page';
 import About from './about/page';
+import Book from './books/page'
 import { GraphQLClient , gql } from 'graphql-request';
 import { motion } from 'framer-motion'
 
@@ -48,12 +49,13 @@ export default function Home() {
       </motion.div>
       </div>
       
-      <div className="w-full h-[88vh] xl:flex flex-col items-center gap-20 justify-between">
+    
         <Blogs/>
-        
+        <Book/>
 <About/>
 <Contact/>
-      </div>
+     
+      
     </main>
     )
 }
