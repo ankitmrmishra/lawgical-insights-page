@@ -1,8 +1,30 @@
+"use client"
+
 import React from 'react'
 import BookCard from '@/pages/items/bookCard'
+import {motion} from 'framer-motion'
 const page = () => {
   return (
-    <div  className='flex flex-col align-middle  justify-center  items-center p-3'><div className="title text-6xl font-titleFont">BOOKS</div>
+    <div  className='max-w-contentContainer mx-auto py-10 mdl:py-24 flex flex-col gap-5 lgl:gap-8 mdl:px-10 xl:px-4 p-7 sm:mt-9'> <div className="titiles flex items-center gap-4 justify-center align-middle ">
+
+        <span className='w-[10vw] h-[1px]  bg-Green'></span>
+       <motion.h1
+      variants={
+        {
+            hidden:{opacity:0, y:80},
+            visible:{opacity:1, y:0},
+        
+        }
+      }
+      initial="hidden"
+      animate="visible"
+      transition={{duration:0.7 , delay:0.25}}
+      className="text-4xl lg:text-6xl text-White  font-heading items-center">
+      
+        Book Arena</motion.h1>
+        
+        <span className='w-[10vw] h-[1px]  bg-Green'></span>
+         </div>
     <div className="  lg:grid grid-cols-3 gap-5 flex flex-col justify-center align-middle items-center p-7  lg:ml-0">
          <BookCard coverPhoto='https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781499806250/pride-and-prejudice-9781499806250_hr.jpg' backCover='https://i0.wp.com/www.lyricsstory.net/wp-content/uploads/2021/08/Pride-Prejudice-2005-Cast-Cast-Of-Pride-Prejudice-2005.gsr_.jpg' title='Pride and Prejudice' 
          content='
@@ -43,6 +65,7 @@ const page = () => {
        
     </div>
        
+   
     </div>
   )
 }

@@ -38,6 +38,7 @@ containers:"1140px"
     "sans-serif"],
     titleFont:['Inter',
       "sans-serif"],
+      heading:["Share Tech Mono", "monospace"]
       },
       
       colors:{

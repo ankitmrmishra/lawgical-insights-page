@@ -1,6 +1,8 @@
 "use client"
 
 import React from 'react';
+import Photo from './photoShoot.jpg';
+import './about.css'
 
 import Image from 'next/image';
 import {BsFillSignpostFill} from 'react-icons/bs'
@@ -45,7 +47,10 @@ const About = () => {
        whileInView="visible"
       transition={{duration:0.7 , delay:0.45}}
             >
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius praesentium saepe, expedita perferendis necessitatibus quasi. Obcaecati magnam minus ea, dicta minima ab temporibus voluptas quo reiciendis at praesentium sint, consequuntur culpa harum? Inventore, voluptas dicta, magnam maiores labore, autem ipsam ipsum amet suscipit neque eaque ex quasi provident repudiandae veniam.
+             Hey there! I'm <span className='text-Green'> Mandvi Tripathi</span>, a vibrant law scholar and a High Court intern, dedicated to unraveling the mysteries of the legal system and aiding individuals in their journey through it. 
+
+
+
             </motion.p>
 
               <motion.p
@@ -60,7 +65,7 @@ const About = () => {
        whileInView="visible"
       transition={{duration:0.7 , delay:0.65}}
             >
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius praesentium saepe, expedita perferendis necessitatibus quasi. Obcaecati magnam minus ea, dim.
+              With an ardent passion for assisting others, I embark on this blog to impart my wisdom and experiences, enlightening you on your legal rights and debunking any misconceptions about Law and the Indian Legal System.
             </motion.p>
 
              <motion.p
@@ -75,7 +80,8 @@ const About = () => {
        whileInView="visible"
       transition={{duration:0.7 , delay:0.85}}
             >
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius praesentium saepe, expedita perferendis necessitatibus quasi. Obcaecati magnam minus ea, dicta minima a
+           
+ When I'm not immersed in the captivating world of law, you can find me indulging in my hobbies of reading, writing, creating art, and exploring new destinations.
   </motion.p>
             <motion.p
              variants={
@@ -89,7 +95,7 @@ const About = () => {
        whileInView="visible"
       transition={{duration:0.7 , delay:0.95}}
             >
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius praesentium saepe, expedita perferendis necessitatibus quasi. Obcaecati magnam minus ea, dicta minima a
+             So, join me on this exciting adventure as we navigate the intricate realms of law together!
             </motion.p>
         
 
@@ -127,11 +133,11 @@ const About = () => {
            
             <Image 
             
-              className="  shadow-[5px_5px_0px_0px_rgba(100,255,218)] lg:h-full lg:w-[400px] filter mix-blend-normal contrast-100  hover:tranform hover:-translate-y-6 hover:duration-750 duration-700"
-              src="/"
-              width={0}
-              height={0}
-           
+              className=" image shadow-[5px_5px_0px_0px_rgba(100,255,218)] lg:h-full lg:w-[400px] filter mix-blend-normal contrast-100  hover:tranform hover:-translate-y-6 hover:duration-750 duration-700"
+              src={Photo}
+              width={400}
+              height={400}
+          
               
               alt="Headshot"
             />
