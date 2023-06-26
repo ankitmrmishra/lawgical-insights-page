@@ -1,5 +1,6 @@
 .image{
-    width: 160%;
-    height: 160%;
+    width: 150%;
+    height: 130%;
     object-fit: cover;
+    margin-top: -5rem;
 }

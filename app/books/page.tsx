@@ -21,7 +21,7 @@ const page = () => {
       transition={{duration:0.7 , delay:0.25}}
       className="text-4xl lg:text-6xl text-White  font-heading items-center">
       
-        Book Arena</motion.h1>
+        Books</motion.h1>
         
         <span className='w-[10vw] h-[1px]  bg-Green'></span>
          </div>
