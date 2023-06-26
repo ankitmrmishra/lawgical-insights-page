@@ -47,7 +47,7 @@ const About = () => {
        whileInView="visible"
       transition={{duration:0.7 , delay:0.45}}
             >
-             Hey there! I'm <span className='text-Green'> Mandvi Tripathi</span>, a vibrant law scholar and a High Court intern, dedicated to unraveling the mysteries of the legal system and aiding individuals in their journey through it. 
+             Hey there! I am <span className='text-Green'> Mandvi Tripathi</span>, a vibrant law scholar and a High Court intern, dedicated to unraveling the mysteries of the legal system and aiding individuals in their journey through it. 
 
 
 
@@ -81,7 +81,7 @@ const About = () => {
       transition={{duration:0.7 , delay:0.85}}
             >
            
- When I'm not immersed in the captivating world of law, you can find me indulging in my hobbies of reading, writing, creating art, and exploring new destinations.
+ When I am not immersed in the captivating world of law, you can find me indulging in my hobbies of reading, writing, creating art, and exploring new destinations.
   </motion.p>
             <motion.p
              variants={
@@ -95,7 +95,7 @@ const About = () => {
        whileInView="visible"
       transition={{duration:0.7 , delay:0.95}}
             >
-             So, join me on this exciting adventure as we navigate the intricate realms of law together!
+             So, join me on this exciting adventure as we navigate the intricate realms of law together!
             </motion.p>
         
 
