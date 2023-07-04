@@ -26,42 +26,13 @@ const page = () => {
         <span className='w-[10vw] h-[1px]  bg-Green'></span>
          </div>
     <div className="  lg:grid grid-cols-3 gap-5 flex flex-col justify-center align-middle items-center p-7  lg:ml-0">
-         <BookCard coverPhoto='https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781499806250/pride-and-prejudice-9781499806250_hr.jpg' backCover='https://i0.wp.com/www.lyricsstory.net/wp-content/uploads/2021/08/Pride-Prejudice-2005-Cast-Cast-Of-Pride-Prejudice-2005.gsr_.jpg' title='Pride and Prejudice' 
+         <BookCard coverPhoto='https://m.media-amazon.com/images/I/817tHNcyAgL.jpg' backCover='https://media.npr.org/assets/img/2012/01/17/John%20Green_custom-ba66749e880e3fe6aaa057dde962efd7fe8c9d62-s1100-c50.jpg' title='Exploring Life’s big questions: The Fault In Our Stars' 
          content='
-         Unravel the tapestry of pride and allow humility to thread compassion and understanding, weaving a world that embraces diversity. Break the chains of prejudice, unlocking the beauty that lies beneath surface judgments. Let love be the guiding partner in the dance between pride and prejudice, fostering unity and acceptance. Peel back the layers of pride to reveal the authentic connections that flourish when prejudice is cast aside
+        The Fault in Our Stars is a novel that explores the themes of love, loss, and the meaning of life. The book is written from the perspective of the main character, Hazel, who is a 16-year-old girl with thyroid cancer. She meets Augustus Waters, a 17-year-old boy who
          '
-         
+         link='https://medium.com/@lawgicalinsights/exploring-lifes-big-questions-the-fault-in-our-stars-d8e2d8506a5f'
          />
-         <BookCard coverPhoto='https://s26162.pcdn.co/wp-content/uploads/2018/02/gatsby-original2.jpg' backCover='https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2013/4/30/1367315868031/F-Scott-Fitzgerald-008.jpg?width=300&quality=45&auto=format&fit=max&dpr=2&s=dfe4c70c02b31d3a21068874bd6bd3f8' title='Pride and Prejudice' 
-         content='
-         Unravel the tapestry of pride and allow humility to thread compassion and understanding, weaving a world that embraces diversity. Break the chains of prejudice, unlocking the beauty that lies beneath surface judgments. Let love be the guiding partner in the dance between pride and prejudice, fostering unity and acceptance. Peel back the layers of pride to reveal the authentic connections that flourish when prejudice is cast aside
-         '
-         
-         />
-         <BookCard coverPhoto='https://s26162.pcdn.co/wp-content/uploads/2021/10/bravenewworld.jpg' backCover='https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/7/23/1437648591143/bf4a0165-7a72-442f-8efe-1213b96d8fbf-1020x612.jpeg?width=465&quality=85&dpr=1&s=none' title='Pride and Prejudice' 
-         content='
-         Unravel the tapestry of pride and allow humility to thread compassion and understanding, weaving a world that embraces diversity. Break the chains of prejudice, unlocking the beauty that lies beneath surface judgments. Let love be the guiding partner in the dance between pride and prejudice, fostering unity and acceptance. Peel back the layers of pride to reveal the authentic connections that flourish when prejudice is cast aside
-         '
-         
-         />
-         <BookCard coverPhoto='https://s26162.pcdn.co/wp-content/uploads/2021/10/39739_0d64668dff792ed1_b.jpg' backCover='https://i0.wp.com/www.lyricsstory.net/wp-content/uploads/2021/08/Pride-Prejudice-2005-Cast-Cast-Of-Pride-Prejudice-2005.gsr_.jpg' title='Pride and Prejudice' 
-         content='
-         Unravel the tapestry of pride and allow humility to thread compassion and understanding, weaving a world that embraces diversity. Break the chains of prejudice, unlocking the beauty that lies beneath surface judgments. Let love be the guiding partner in the dance between pride and prejudice, fostering unity and acceptance. Peel back the layers of pride to reveal the authentic connections that flourish when prejudice is cast aside
-         '
-         
-         />
-         <BookCard coverPhoto='https://s26162.pcdn.co/wp-content/uploads/2021/10/The-Catcher-in-the-Rye-First-Edition-cover-E.-Michael-Mitchell.jpg' backCover='https://i0.wp.com/www.lyricsstory.net/wp-content/uploads/2021/08/Pride-Prejudice-2005-Cast-Cast-Of-Pride-Prejudice-2005.gsr_.jpg' title='Pride and Prejudice' 
-         content='
-         Unravel the tapestry of pride and allow humility to thread compassion and understanding, weaving a world that embraces diversity. Break the chains of prejudice, unlocking the beauty that lies beneath surface judgments. Let love be the guiding partner in the dance between pride and prejudice, fostering unity and acceptance. Peel back the layers of pride to reveal the authentic connections that flourish when prejudice is cast aside
-         '
-         
-         />
-         <BookCard coverPhoto='https://s26162.pcdn.co/wp-content/uploads/2018/10/invisibleman-1509049531-640x996.jpg' backCover='https://i0.wp.com/www.lyricsstory.net/wp-content/uploads/2021/08/Pride-Prejudice-2005-Cast-Cast-Of-Pride-Prejudice-2005.gsr_.jpg' title='Pride and Prejudice' 
-         content='
-         Unravel the tapestry of pride and allow humility to thread compassion and understanding, weaving a world that embraces diversity. Break the chains of prejudice, unlocking the beauty that lies beneath surface judgments. Let love be the guiding partner in the dance between pride and prejudice, fostering unity and acceptance. Peel back the layers of pride to reveal the authentic connections that flourish when prejudice is cast aside
-         '
-         
-         />
+        
        
     </div>
        

@@ -6,7 +6,7 @@ import Contact from '@/app/contact/page'
 import SocialMedia from '@/pages/SocialMedia'
 import Email from '@/pages/email'
 import Introduction from './introduction/page';
-import Blogs from '@/app/blogs/page';
+// import Blogs from '@/app/blogs/page';
 import About from './about/page';
 import Book from './books/page'
 import { GraphQLClient , gql } from 'graphql-request';
@@ -50,7 +50,7 @@ export default function Home() {
       </div>
       
     
-        <Blogs/>
+        {/* <Blogs/> */}
         <Book/>
 <About/>
 <Contact/>
