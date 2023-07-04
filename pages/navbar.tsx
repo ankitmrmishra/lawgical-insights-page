@@ -40,7 +40,7 @@ const navbar = () => {
         >
            <span className='lg:hidden text-lg'><AiFillHome/></span> Home</motion.li>
     </Link>
-     <Link  href={"/blogs"}  className='flex items-center gap-1 font-medium text-textDark hover:text-Green cursor-pointer duration-300 nav-link'>
+     {/* <Link  href={"/blogs"}  className='flex items-center gap-1 font-medium text-textDark hover:text-Green cursor-pointer duration-300 nav-link'>
          <motion.li
         initial={{y:-10, opacity:0}}
         animate={{y:0, opacity:1}}
@@ -49,8 +49,8 @@ const navbar = () => {
         >
            <span className='lg:hidden text-lg' ><BsFillPencilFill/></span> 
             Blogs</motion.li>
-    </Link>
-     {/* <Link  href="/books" className='flex items-center gap-1 font-medium text-textDark hover:text-Green cursor-pointer duration-300 nav-link'>
+    </Link> */}
+     <Link  href="/books" className='flex items-center gap-1 font-medium text-textDark hover:text-Green cursor-pointer duration-300 nav-link'>
          <motion.li
         initial={{y:-10, opacity:0}}
         animate={{y:0, opacity:1}}
@@ -58,7 +58,7 @@ const navbar = () => {
          className='flex flex-col items-center'
         >
           <span className='lg:hidden text-lg' ><GiBookshelf/></span>   Books</motion.li>
-    </Link> */}
+    </Link>
      <Link  href="/about" className='flex items-center gap-1 font-medium text-textDark hover:text-Green cursor-pointer duration-300 nav-link'>
          <motion.li
         initial={{y:-10, opacity:0}}
